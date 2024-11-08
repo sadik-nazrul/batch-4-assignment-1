@@ -5,8 +5,3 @@ const countWordOccurrences = (sentence: string, word: string) => {
   const occurceWords = words.filter((wrd) => wrd === wordInLowercase);
   return occurceWords ? occurceWords.length : 0;
 };
-const occurceWords = countWordOccurrences(
-  "TypeScript is great. I love TypeScript!",
-  "typescript"
-);
-console.log(occurceWords);

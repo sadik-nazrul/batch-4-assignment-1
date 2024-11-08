@@ -5,6 +5,3 @@ const sumArray = (nums: number[]): number => {
   }
   return sum;
 };
-
-const subOfNumbers = sumArray([1, 2, 3, 4, 5]);
-console.log(subOfNumbers);

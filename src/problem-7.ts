@@ -13,6 +13,3 @@ class Car {
     return `${age} (assuming the current year is ${currentYear})`;
   }
 }
-
-const car = new Car("Honda", "Civic", 2050);
-console.log(car.getCarAge());
