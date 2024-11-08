@@ -52,5 +52,3 @@ const fake: Holder = {
 ```
 
 ### `inctanceof` Type Guard
-
-### `in` Type Guard
